@@ -9,8 +9,8 @@ app.use(bodyParser.json());
 
 app.use(cors());
 
-// app.use('/api/auth', authRoutes);
-// app.use('/api/events', eventRoutes); 
+app.use('/api/auth', authRoutes);
+app.use('/api/events', eventRoutes); 
 
 // Show
 
